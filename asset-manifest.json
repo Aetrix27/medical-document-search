@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/medical-documents-search/static/css/main.1c252867.css",
+    "main.js": "/medical-documents-search/static/js/main.d9410c64.js",
+    "static/js/787.b55afedb.chunk.js": "/medical-documents-search/static/js/787.b55afedb.chunk.js",
+    "index.html": "/medical-documents-search/index.html",
+    "main.1c252867.css.map": "/medical-documents-search/static/css/main.1c252867.css.map",
+    "main.d9410c64.js.map": "/medical-documents-search/static/js/main.d9410c64.js.map",
+    "787.b55afedb.chunk.js.map": "/medical-documents-search/static/js/787.b55afedb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c252867.css",
+    "static/js/main.d9410c64.js"
+  ]
+}
