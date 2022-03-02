@@ -2,13 +2,13 @@ import { Outlet } from 'react-router-dom'
 
 import Navbar from './Navbar.js'
 import './App.css';
-
+import DocumentList from './DocumentList/DocumentList'
 
 function App(){
     return (
         <div className="App">
-                Medical Documents Search
         <Navbar />
+        <DocumentList />
         </div>
     )
 }

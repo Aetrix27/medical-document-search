@@ -2,8 +2,8 @@
 
 import React from 'react'
 import { useParams } from 'react-router'
-import data from '../../sfpopos-data.js'
-import './POPOSDetails.css'
+import data from '../../document-data.json'
+//import './POPOSDetails.css'
 //import POPOSFeatureList from '../DocumentDetails/POPOSFeatureList'
 
 function DocumentDetails(props) {
