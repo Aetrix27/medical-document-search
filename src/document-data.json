@@ -5,6 +5,13 @@
        "images":[
           "lorem.png"
        ]
-    }
+    },
+    {
+      "title":"COVID",
+      "desc":"COVID Vaccine Card",
+      "images":[
+         "lorem.png"
+      ]
+   }
 
   ]

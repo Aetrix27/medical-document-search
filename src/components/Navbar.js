@@ -12,10 +12,10 @@ function Navbar(){
         <div>
             <NavLink 
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-            to="/">Home</NavLink>
+            to="/">Documents</NavLink>
             <NavLink 
             className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-            to="/documents">Documents</NavLink>
+            to="/form">Submit Document</NavLink>
             
         </div>
         </div>

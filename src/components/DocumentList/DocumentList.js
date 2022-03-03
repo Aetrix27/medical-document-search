@@ -7,13 +7,12 @@ import { useState } from 'react'
 
 function DocumentList() {
   const [ query, setQuery ] = useState('')
-
+ 
     // deconstruct hours here
-    const spaces = data.filter(({ features, title, address }) => {
+    const spaces = data.filter(({ features, title }) => {
     // true if query is in title
     const inTitle = title.toLowerCase().includes(query.toLowerCase())
     // true if query is in address
-    let doctors = []
       // return true if either is true
       return inTitle 
     }).map((obj) => { // remove i here
@@ -35,7 +34,7 @@ function DocumentList() {
           <input
             value={query}
             placeholder="search"
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => setQuery(query.append(e.target.value))}
           />
           <button type="submit">Submit</button>
         </form>
