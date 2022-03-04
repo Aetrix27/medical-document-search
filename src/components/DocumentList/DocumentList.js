@@ -1,7 +1,7 @@
 // src/DocumentList.js
 import data from '../../document-data.js'
 import Document from '../Document/Document';
-//import './DocumentList.css';
+import './DocumentList.css';
 import { useState } from 'react'
 import React from 'react'
 

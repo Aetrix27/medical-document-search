@@ -1,10 +1,7 @@
-// src/POPOSDetails.js
-
 import React from 'react'
 import { useParams } from 'react-router'
 import data from '../../document-data.json'
 //import './POPOSDetails.css'
-//import POPOSFeatureList from '../DocumentDetails/POPOSFeatureList'
 
 function DocumentDetails(props) {
   const params = useParams()

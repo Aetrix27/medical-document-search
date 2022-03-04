@@ -12,7 +12,7 @@ ReactDOM.render(
   <Router>
   <Routes>
     <Route path="/" element={<App />}>
-      <Route path="/" element={<DocumentList />} />
+      <Route path="list" element={<DocumentList />} />
       <Route path="form" element={<DocumentForm />} />
       <Route path="/details/:id" element={<DocumentDetails />} />
     </Route>

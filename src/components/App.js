@@ -10,6 +10,7 @@ function App(){
             <Navbar />
             <Outlet />
             <DocumentList />
+
         </div>
     )
 }

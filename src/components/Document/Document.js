@@ -31,7 +31,7 @@ function Document(props) {
       <div className="Document">
         <h1>
           <Link
-            className="Document-title" // add a class name!
+            className="DocumentTitle" // add a class name!
             to={`/details/${id}`}>
             {name}
           </Link>

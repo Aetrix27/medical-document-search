@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2em;
-    max-width: 1200px;
+    max-width: 900ox;
     margin: auto;
     padding: 2em;
     font-family: arial;
@@ -14,23 +14,8 @@
     align-items: flex-start;
   }
   
-  .DocumentList form input, .POPOSList form button {
-    padding: 1em;
-    margin: 0;
-    border: 1px solid;
-    font-size: 1rem;
-  }
+
   
-  .DocumentList form input {
-    flex: 1;
-    border-top-left-radius: 0.5em;
-    border-bottom-left-radius: 0.5em;
-  }
-  
-  .DocumentList form button {
-    border-top-right-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
-  }
   
 /* Small screens mobile */
 @media only screen and (max-width: 700px) {
