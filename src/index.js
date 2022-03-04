@@ -4,7 +4,6 @@ import './index.css';
 import App from './components/App';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
-import DocumentDetails from './components/DocumentDetails/DocumentDetails'
 import DocumentForm from './components/DocumentForm/DocumentForm'
 import DocumentList from './components/DocumentList/DocumentList'
 
@@ -14,7 +13,6 @@ ReactDOM.render(
     <Route path="/" element={<App />}>
       <Route path="list" element={<DocumentList />} />
       <Route path="form" element={<DocumentForm />} />
-      <Route path="/details/:id" element={<DocumentDetails />} />
     </Route>
   </Routes>
 </Router>,

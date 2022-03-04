@@ -1,4 +1,3 @@
-// src/POPOSSpace.js
 import { Link } from 'react-router-dom'
 import './Document.css'
 import { useState } from 'react'
@@ -14,9 +13,6 @@ function Document(props) {
     }
 
     const display = () => {
-        //doctors.push(key);
-        //(doctors);
-  
         return data.map((doctor) => {
           return (
             <div class = "postInfo">
@@ -61,7 +57,6 @@ function Document(props) {
      
       </div>
     )
-    //setDoctor(doctors.append(e.target.value))
 
   
   }
