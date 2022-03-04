@@ -16,7 +16,7 @@ function Document(props) {
         return data.map((doctor) => {
           return (
             <div class = "postInfo">
-              { doctor  } <div> </div>
+              { doctor } <div> </div>
             </div>
 
           )
@@ -25,13 +25,13 @@ function Document(props) {
     }
     return (
       <div className="Document">
-        <h1>
-          <Link
+        <h2>
+          <a
             className="DocumentTitle" // add a class name!
-            to={`/details/${id}`}>
+            href={`/details/${id}`}>
             {name}
-          </Link>
-        </h1>
+          </a>
+          </h2>
         <Link to={`/details/${id}`}>
           <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt="Hello" />
         </Link>
@@ -53,7 +53,6 @@ function Document(props) {
             ></input>
         </form>
         {data ? display() : ''}
-
      
       </div>
     )
