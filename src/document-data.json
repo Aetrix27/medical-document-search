@@ -1,13 +1,13 @@
 [
     {
-       "title":"Medical Document 1",
+       "title":"Blood Information",
        "desc":"The patient's blood pressure information",
        "images":[
           "lorem.png"
        ]
     },
     {
-      "title":"COVID",
+      "title":"Vaccine Card",
       "desc":"COVID Vaccine Card",
       "images":[
          "lorem.png"

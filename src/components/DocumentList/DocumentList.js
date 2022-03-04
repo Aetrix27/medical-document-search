@@ -3,13 +3,13 @@ import data from '../../document-data.js'
 import Document from '../Document/Document';
 //import './DocumentList.css';
 import { useState } from 'react'
-
+import React from 'react'
 
 function DocumentList() {
   const [ query, setQuery ] = useState('')
  
     // deconstruct hours here
-    const spaces = data.filter(({ features, title }) => {
+    const documents = data.filter(({ features, title }) => {
     // true if query is in title
     const inTitle = title.toLowerCase().includes(query.toLowerCase())
     // true if query is in address
@@ -34,11 +34,11 @@ function DocumentList() {
           <input
             value={query}
             placeholder="search"
-            onChange={(e) => setQuery(query.append(e.target.value))}
+            onChange={(e) => setQuery(e.target.value)}
           />
           <button type="submit">Submit</button>
         </form>
-        {spaces}
+        {documents}
       </div>
       )
   }

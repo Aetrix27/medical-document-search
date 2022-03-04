@@ -20,7 +20,7 @@ function Document(props) {
         return data.map((doctor) => {
           return (
             <div class = "postInfo">
-              { doctor  }
+              { doctor  } <div> </div>
             </div>
 
           )
@@ -56,7 +56,7 @@ function Document(props) {
               onClick={() => getSelection(doctor)}
             ></input>
         </form>
-        {data ? display() : 'loading'}
+        {data ? display() : ''}
 
      
       </div>
