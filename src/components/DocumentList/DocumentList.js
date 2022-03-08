@@ -22,7 +22,7 @@ function DocumentList() {
 			<Document
 				id={id} // use id here
 				key={`${title}-${id}`} // use id here
-                name={title}
+        name={title}
 				image={images[0]}
       />
 		)
